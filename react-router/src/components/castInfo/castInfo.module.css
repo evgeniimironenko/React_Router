@@ -1,0 +1,52 @@
+.castList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px -10px -10px -10px;
+}
+
+.castItem {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: calc(16.666% - 20px);
+  margin: 10px;
+}
+
+.castItem:hover {
+  transform: scale(1.05);
+}
+
+.castName {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+}
+.castImg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .castItem {
+    width: calc(25% - 20px);
+  }
+}
+
+@media (max-width: 767px) {
+  .castItem {
+    width: calc(33.3% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .castItem {
+    width: calc(50% - 20px);
+  }
+}

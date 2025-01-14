@@ -1,0 +1,19 @@
+.reviewsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reviewsItem {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.reviewsName {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.reviewsContent {
+  margin: 0;
+}
